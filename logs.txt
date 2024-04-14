@@ -1,0 +1,35 @@
+commit 79553fa7e704ccd466e4c230809a5d9d84a08793 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Teodora Saneva <73078235+sanevat@users.noreply.github.com>
+Date:   Sun Apr 14 23:14:52 2024 +0200
+
+    Call method makeBigStringFrom in main class.
+
+commit 9e113984b636397efc37e64a1ae1a3df53b8618b
+Author: Teodora Saneva <73078235+sanevat@users.noreply.github.com>
+Date:   Sun Apr 14 23:07:26 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 5de240a62f21a45159186dea2738b4ed00a28e82 (origin/bug1, bug1)
+Author: Teodora Saneva <73078235+sanevat@users.noreply.github.com>
+Date:   Sun Apr 14 23:13:47 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 6faa333f8ff00353067fcfd8c830de84b150fee6
+Author: Teodora Saneva <73078235+sanevat@users.noreply.github.com>
+Date:   Sun Apr 14 23:06:21 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit e24c3d11d29e0a2c6ed49268d92c66a017d71216
+Author: Teodora Saneva <73078235+sanevat@users.noreply.github.com>
+Date:   Sun Apr 14 23:04:48 2024 +0200
+
+    Add starter code
+
+commit d416b59e4bc9dbaf9ccc06857e26945d52728c03
+Author: Teodora Saneva <73078235+sanevat@users.noreply.github.com>
+Date:   Sun Apr 14 23:04:00 2024 +0200
+
+    Initial commit

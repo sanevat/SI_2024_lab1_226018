@@ -1,0 +1,40 @@
+4. git init - иницијализација на Git
+5. git remote add origin https://github.com/sanevat/SI_2024_lab1_226018.git
+6. git add README.md
+   git commit -m "Initial commit"
+7. git add --all
+   git commit -m "Add starter code
+8. git push -u origin master
+9. git branch bug1 
+   git branch bug2
+10. git checkout bug1
+11. git commit -a -m "Fix wrong condition in filterOddLengthStrings"
+12. git checkout bug2
+13. git commit -a -m "Fix wrong condition in makeBigStringFrom"
+14. git checkout bug1
+15. git commit -a -m "Call method filterOddLengthStrings in main class
+16. git checkout bug2
+17. git commit -a -m "Call method makeBigStringFrom in main class"
+18. git push origin master
+    git push origin bug1
+    git push origin bug2
+19. git checkout master
+20. git merge bug1 - не настанува конфликт, ова е fast-forward спојување
+21. git push origin master
+    git push origin bug1
+    git push origin bug2
+22. git checkout bug2
+23. git rebase master - настанува конфликт поради тоа што во ист фајл на иста линија има две
+различни повикувања на статичката метода. Конфликтот се решава со тоа што ги ставаме и двата методи
+еден по друг, па правиме git add SILab1Main.java. git rebase --continue
+24. git checkout master
+25. git merge bug2 - fast-forward спојување
+26. git push origin master
+    git push origin bug1
+    git push origin bug2
+27. git push origin bug2 --force
+28. git add --all 
+    git commit -m "Final commit"
+29. git push origin master
+
+
